@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>getConversationEvents</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+<link href="../../../images/logo-icon.svg">
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>Vonage Client SDK (Chat)</span>
+            </a>
+    </div>
+    <div>
+1.0.0    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="Vonage Client SDK (Chat)::com.vonage.chat/VGChatAPIImpl/getConversationEvents/#kotlin.String#com.vonage.clientcore.core.api.models.PresentingOrder?#kotlin.Int?#kotlin.String?#kotlin.Function2[java.lang.Exception?,com.vonage.chat.models.VGEventsPage?,kotlin.Unit]/PointingToDeclaration//-1869831964">
+  <div class="breadcrumbs"><a href="../../../index.html">Vonage Client SDK (Chat)</a><span class="delimiter">/</span><a href="../index.html">com.vonage.chat</a><span class="delimiter">/</span><a href="index.html">VGChatAPIImpl</a><span class="delimiter">/</span><span class="current">getConversationEvents</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>get</span><wbr></wbr><span>Conversation</span><wbr></wbr><span><span>Events</span></span></h1>
+  </div>
+  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="get-conversation-events.html"><span class="token function">getConversationEvents</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cid<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api.models/PresentingOrder///PointingToDeclaration/">PresentingOrder</span> order<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Integer.html">Integer</a> pageSize<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cursor<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function2///PointingToDeclaration/">Function2</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Exception.html">Exception</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="../../com.vonage.chat.models/-v-g-events-page/index.html">VGEventsPage</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> callback</span></span><span class="token punctuation">)</span></div><p class="paragraph">This method is used to retrieve a list of Events that belong to a specific conversation.</p><h4 class="">Parameters</h4><div data-togglable="Parameters"><div class="table" data-togglable="Parameters"><div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span><span>cid</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">The id of the conversation for which the Events are to be retrieved.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span><span>order</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Optional parameter to used to specify the order in which the events should be presented. Acceptable values are &quot;asc&quot; for ascending and &quot;desc&quot; for descending. If not provided, the default is &quot;asc&quot;.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>page</span><wbr></wbr><span><span>Size</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Optional parameter to specify the number of members to be retrieved per page. If not provided, the default is 10.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span><span>cursor</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Optional parameter to specify the starting point for pagination. If not provided, the default is the first page.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span><span>callback</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">A function to be called upon completion of the method.</p><p class="paragraph">It takes in two parameters:</p><p class="paragraph"><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html">Exception</a> If an error occurs, this will contain information about the error. If the method is successful, this will be null.</p><p class="paragraph"><a href="../../com.vonage.chat.models/-v-g-events-page/index.html">VGEventsPage</a> If the method is successful, this will contain the list of Events and the cursors for the next and previous page of results. If an error occurs, this will be null.</p></div></div></div></div></div></div></div><hr><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="../../com.vonage.chat.models/-v-g-events-page/index.html">VGEventsPage</a> <a href="get-conversation-events.html"><span class="token function">getConversationEvents</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cid<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api.models/PresentingOrder///PointingToDeclaration/">PresentingOrder</span> order<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Integer.html">Integer</a> pageSize<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cursor</span></span><span class="token punctuation">)</span></div><p class="paragraph">This method is used to retrieve a list of Events that belong to a specific conversation.</p><span class="kdoc-tag"><h4 class="">Return</h4><p class="paragraph"><a href="../../com.vonage.chat.models/-v-g-events-page/index.html">VGEventsPage</a> If the method is successful, this will contain the list of Events and the cursors for the next and previous page of results. If an error occurs, this will be null.</p></span><h4 class="">Parameters</h4><div data-togglable="Parameters"><div class="table" data-togglable="Parameters"><div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span><span>cid</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">The id of the conversation for which the Events are to be retrieved.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span><span>order</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Optional parameter to used to specify the order in which the events should be presented. Acceptable values are &quot;asc&quot; for ascending and &quot;desc&quot; for descending. If not provided, the default is &quot;asc&quot;.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span>page</span><wbr></wbr><span><span>Size</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Optional parameter to specify the number of members to be retrieved per page. If not provided, the default is 10.</p></div></div></div></div></div><div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"><div class="main-subrow keyValue WithExtraAttributes"><div class=""><span class="inline-flex"><div><u><span><span>cursor</span></span></u></div></span></div><div><div class="title"><div data-togglable="Parameters"><p class="paragraph">Optional parameter to specify the starting point for pagination. If not provided, the default is the first page.</p></div></div></div></div></div></div></div><h4 class="">Throws</h4><div class="table" data-togglable="Throws"><div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"><div class="main-subrow keyValue "><div class=""><span class="inline-flex"><div><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-exception/index.html"><span><span>Exception</span></span></a></div></span></div><div><div class="title"><p class="paragraph">If an error occurs, this will contain information about the error. If the method is successful, this will be null.</p></div></div></div></div></div></div></div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>(c) 2023 Vonage Inc.</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

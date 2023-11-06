@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>VGTextMessageEvent</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>chat</span>
+            </a>
+    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="chat::com.vonage.chat.models/VGTextMessageEvent///PointingToDeclaration//-1869831964">
+  <div class="breadcrumbs"><a href="../../../index.html">chat</a><span class="delimiter">/</span><a href="../index.html">com.vonage.chat.models</a><span class="delimiter">/</span><span class="current">VGTextMessageEvent</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>VGText</span><wbr></wbr><span>Message</span><wbr></wbr><span><span>Event</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">final </span><span class="token keyword"></span><span class="token keyword">class </span><a href="index.html">VGTextMessageEvent</a><span class="token keyword"> implements </span><a href="../-v-g-message-event/index.html">VGMessageEvent</a></div><p class="paragraph">Text Message</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Types">Types</button><button class="section-tab" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+    <div class="tabs-section-body">
+      <h2 class="tabbedcontent">Constructors</h2>
+      <div class="table" data-togglable="Constructors"><a data-name="1380284484%2FConstructors%2F-1869831964" anchor-label="VGTextMessageEvent" id="1380284484%2FConstructors%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue TabbedContent">
+            <div class=""><span class="inline-flex">
+                <div><a href="-v-g-text-message-event.html"><span>VGText</span><wbr></wbr><span>Message</span><wbr></wbr><span><span>Event</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1380284484%2FConstructors%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="index.html">VGTextMessageEvent</a> <a href="-v-g-text-message-event.html"><span class="token function">VGTextMessageEvent</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Integer.html">Integer</a> id<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> conversationId<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> from<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> timestamp<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="-body/index.html">VGTextMessageEvent.Body</a> body</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Types</h2>
+      <div class="table" data-togglable="Types"><a data-name="-172980008%2FClasslikes%2F-1869831964" anchor-label="Body" id="-172980008%2FClasslikes%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="-body/index.html"><span><span>Body</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-172980008%2FClasslikes%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">final </span><span class="token keyword"></span><span class="token keyword">class </span><a href="-body/index.html">Body</a><span class="token keyword"> implements </span><a href="../-v-g-message-event/-body/index.html">VGMessageEvent.Body</a></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="196536797%2FFunctions%2F-1869831964" anchor-label="getBody" id="196536797%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-body.html"><span>get</span><wbr></wbr><span><span>Body</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="196536797%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="-body/index.html">VGTextMessageEvent.Body</a> <a href="get-body.html"><span class="token function">getBody</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-102852735%2FFunctions%2F-1869831964" anchor-label="getConversationId" id="-102852735%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-conversation-id.html"><span>get</span><wbr></wbr><span>Conversation</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-102852735%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="get-conversation-id.html"><span class="token function">getConversationId</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-474651435%2FFunctions%2F-1869831964" anchor-label="getFrom" id="-474651435%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-from.html"><span>get</span><wbr></wbr><span><span>From</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-474651435%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="get-from.html"><span class="token function">getFrom</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1369949948%2FFunctions%2F-1869831964" anchor-label="getId" id="-1369949948%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-id.html"><span>get</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1369949948%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Integer.html">Integer</a> <a href="get-id.html"><span class="token function">getId</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1318053083%2FFunctions%2F-1869831964" anchor-label="getTimestamp" id="-1318053083%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-timestamp.html"><span>get</span><wbr></wbr><span><span>Timestamp</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1318053083%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="get-timestamp.html"><span class="token function">getTimestamp</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Properties</h2>
+      <div class="table" data-togglable="Properties"><a data-name="1346834979%2FProperties%2F-1869831964" anchor-label="body" id="1346834979%2FProperties%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#1346834979%2FProperties%2F-1869831964"><span><span>body</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1346834979%2FProperties%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><a data-name="1346834979%2FProperties%2F-1869831964" anchor-label="body" id="1346834979%2FProperties%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a><div class="symbol monospace block"><span class="token keyword">private </span><span class="token keyword">final </span><span class="token keyword"></span><a href="-body/index.html">VGTextMessageEvent.Body</a> <a href="index.html#1346834979%2FProperties%2F-1869831964">body</a></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1021681735%2FProperties%2F-1869831964" anchor-label="conversationId" id="1021681735%2FProperties%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#1021681735%2FProperties%2F-1869831964"><span>conversation</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1021681735%2FProperties%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><a data-name="1021681735%2FProperties%2F-1869831964" anchor-label="conversationId" id="1021681735%2FProperties%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a><div class="symbol monospace block"><span class="token keyword">private </span><span class="token keyword">final </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="index.html#1021681735%2FProperties%2F-1869831964">conversationId</a></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="675646747%2FProperties%2F-1869831964" anchor-label="from" id="675646747%2FProperties%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#675646747%2FProperties%2F-1869831964"><span><span>from</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="675646747%2FProperties%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><a data-name="675646747%2FProperties%2F-1869831964" anchor-label="from" id="675646747%2FProperties%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a><div class="symbol monospace block"><span class="token keyword">private </span><span class="token keyword">final </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="index.html#675646747%2FProperties%2F-1869831964">from</a></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-2025735478%2FProperties%2F-1869831964" anchor-label="id" id="-2025735478%2FProperties%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#-2025735478%2FProperties%2F-1869831964"><span><span>id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2025735478%2FProperties%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><a data-name="-2025735478%2FProperties%2F-1869831964" anchor-label="id" id="-2025735478%2FProperties%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a><div class="symbol monospace block"><span class="token keyword">private </span><span class="token keyword">final </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Integer.html">Integer</a> <a href="index.html#-2025735478%2FProperties%2F-1869831964">id</a></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-2144588129%2FProperties%2F-1869831964" anchor-label="timestamp" id="-2144588129%2FProperties%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#-2144588129%2FProperties%2F-1869831964"><span><span>timestamp</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2144588129%2FProperties%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><a data-name="-2144588129%2FProperties%2F-1869831964" anchor-label="timestamp" id="-2144588129%2FProperties%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a><div class="symbol monospace block"><span class="token keyword">private </span><span class="token keyword">final </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="index.html#-2144588129%2FProperties%2F-1869831964">timestamp</a></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

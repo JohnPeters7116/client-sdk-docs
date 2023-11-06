@@ -1,0 +1,9 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:com.vonage.clientsdk////PointingToDeclaration/-vonage -client-s-d-k (-combined)/com.vonage.clientsdk/index.html
+$dokka.location:com.vonage.clientsdk//VonageClient/#android.content.Context/PointingToDeclaration/-vonage -client-s-d-k (-combined)/com.vonage.clientsdk/-vonage-client.html
+$dokka.location:com.vonage.clientsdk/VonageClient.Companion///PointingToDeclaration/-vonage -client-s-d-k (-combined)/com.vonage.clientsdk/-vonage-client/-companion/index.html
+$dokka.location:com.vonage.clientsdk/VonageClient.Companion/getPushNotificationType/#kotlin.String?/PointingToDeclaration/-vonage -client-s-d-k (-combined)/com.vonage.clientsdk/-vonage-client/-companion/get-push-notification-type.html
+$dokka.location:com.vonage.clientsdk/VonageClient///PointingToDeclaration/-vonage -client-s-d-k (-combined)/com.vonage.clientsdk/-vonage-client/index.html
+com.vonage.clientsdk
+

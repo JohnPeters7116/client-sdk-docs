@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>VGBaseClient Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Class/VGBaseClient" class="dashAnchor"></a>
+    <a title="VGBaseClient Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">VonageClientSDKChat 1.0.0 Docs</a> (11% documented)</p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fnexmoinc.github.io%2Fnexmoclient-sdk-core-kmp%2Fios_chat%2Fdocsets%2FVonageClientSDKChat.xml"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">VonageClientSDKChat Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        VGBaseClient Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/CSErrorCodes.html">CSErrorCodes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SessionErrorCodes.html">SessionErrorCodes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGBaseClient.html">VGBaseClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGChannel.html">VGChannel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGChatClient.html">VGChatClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGClientConfig.html">VGClientConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGConversation.html">VGConversation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGConversationTimestamp.html">VGConversationTimestamp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGConversationsPage.html">VGConversationsPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGError.html">VGError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGEventsPage.html">VGEventsPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGMember.html">VGMember</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGMemberChannel.html">VGMemberChannel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGMemberInvitedEvent.html">VGMemberInvitedEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGMemberInvitedEventBody.html">VGMemberInvitedEventBody</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGMemberJoinedEvent.html">VGMemberJoinedEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGMemberJoinedEventBody.html">VGMemberJoinedEventBody</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGMemberLeftEvent.html">VGMemberLeftEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGMemberLeftEventBody.html">VGMemberLeftEventBody</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGMemberTimestamp.html">VGMemberTimestamp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGMembersPage.html">VGMembersPage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGTextMessageEvent.html">VGTextMessageEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGTextMessageEventBody.html">VGTextMessageEventBody</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGUnknownEvent.html">VGUnknownEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGUser.html">VGUser</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGUserChannels.html">VGUserChannels</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VGUserTimestamp.html">VGUserTimestamp</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@VonageClientSDKChatVersionNumber">VonageClientSDKChatVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@VonageClientSDKChatVersionString">VonageClientSDKChatVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@VonageClientSDKCoreVersionNumber">VonageClientSDKCoreVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@VonageClientSDKCoreVersionString">VonageClientSDKCoreVersionString</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/VGChannelType.html">VGChannelType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/VGConfigRegion.html">VGConfigRegion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/VGConversationState.html">VGConversationState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/VGErrorType.html">VGErrorType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/VGHangupReason.html">VGHangupReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/VGLegStatus.html">VGLegStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/VGLoggingLevel.html">VGLoggingLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/VGMemberState.html">VGMemberState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/VGPresentingOrder.html">VGPresentingOrder</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/VGPushType.html">VGPushType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/VGSessionErrorReason.html">VGSessionErrorReason</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/VGVoiceChannelType.html">VGVoiceChannelType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/VGVoiceInviteCancelReason.html">VGVoiceInviteCancelReason</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/VGBaseClientDelegate.html">VGBaseClientDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VGChatClientAPI.html">VGChatClientAPI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VGChatClientDelegate.html">VGChatClientDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VGConversationEvent.html">VGConversationEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VGMessageEvent.html">VGMessageEvent</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/VGMessageEventBody.html">VGMessageEventBody</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:VGConversation.h@T@VGConversationId">VGConversationId</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:VGConversationEvent.h@T@VGEventId">VGEventId</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:VGConversationEvent.h@T@VGEventTimestamp">VGEventTimestamp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:VGMember.h@T@VGMemberId">VGMemberId</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:VGUser.h@T@VGUserId">VGUserId</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:VGUser.h@T@VGUserIdOrName">VGUserIdOrName</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:VGUser.h@T@VGUsername">VGUsername</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>VGBaseClient</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">VGBaseClient</span><span class="p">:</span> <span class="nc">NSObject</span>
+
+<span class="k">@property</span> <span class="p">(</span><span class="n">weak</span><span class="p">)</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/VGBaseClientDelegate.html">VGBaseClientDelegate</a></span><span class="o">&gt;</span> <span class="n">delegate</span><span class="p">;</span>
+
+<span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">setDefaultLoggingLevel</span><span class="p">:(</span><span class="n"><a href="../Enums/VGLoggingLevel.html">VGLoggingLevel</a></span><span class="p">)</span><span class="nv">level</span><span class="p">;</span>
+
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setConfig</span><span class="p">:(</span><span class="n"><a href="../Classes/VGClientConfig.html">VGClientConfig</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">config</span><span class="p">;</span>
+
+<span class="cm">/**
+ Create a session using an authToken and a sessionId.
+ 
+ Usage Example
+ ~~~
+ //Swift
+ client.createSession(token, oldSessionId) {err, sessionId in
+    if(sessionId)
+        print(sessionId)
+    else
+        print(err)
+ }
+ //Objective-C
+ [client createSession:token sessionId:oldSessionId callback:^(NSError * _Nullable error, NSString * sessionId) {
+     if (sessionId)
+         NSLog(@"Session was created successfully: %@", sessionId);
+     else
+         NSLog(@"Create session failed with %@", error);
+ }];
+ ~~~
+ - Parameters:
+    - authToken: The user authentication token.
+    - sessionId: (Optional) The ID of the session to reconnect to.
+    - callback: The callback that will be executed on completion.
+ It will specify either the `error` occurred (if any) or the `sessionId` (on success).
+ */</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">createSession</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">authToken</span> <span class="nf">sessionId</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span> <span class="n">_Nullable</span><span class="p">)</span><span class="nv">sessionId</span> <span class="nf">callback</span><span class="p">:(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">error</span><span class="p">,</span> <span class="n">NSString</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">sessionId</span><span class="p">))</span><span class="nv">callback</span>
+<span class="n">NS_SWIFT_ASYNC</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span>
+
+<span class="cm">/**
+ Create a session using an authToken.
+ 
+ Usage Example
+ ~~~
+ //Swift
+ client.createSession(token) {err, sessionId in
+    if(sessionId)
+        print(sessionId)
+    else
+        print(err)
+ }
+ //Objective-C
+ [client createSession:token callback:^(NSError * _Nullable error, NSString * sessionId) {
+     if (sessionId)
+         NSLog(@"Session was created successfully: %@", sessionId);
+     else
+         NSLog(@"Create session failed with %@", error);
+ }];
+ ~~~
+ - Parameters:
+    - authToken: The user authentication token.
+    - callback: The callback that will be executed on completion.
+ It will specify either the `error` occurred (if any) or the `sessionId` (on success).
+ */</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">createSession</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">authToken</span> <span class="nf">callback</span><span class="p">:(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">error</span><span class="p">,</span> <span class="n">NSString</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">sessionId</span><span class="p">))</span><span class="nv">callback</span>
+<span class="n">NS_SWIFT_ASYNC</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
+
+<span class="cm">/**
+ * Delete session with an error callback
+ * @param callback callback with the error of the deleteSession
+ * @code [myNXNClient deleteSession:(void (^)(NSError * _Nullable)];
+ */</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">deleteSession</span><span class="p">:(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">error</span><span class="p">))</span><span class="nv">callback</span>
+<span class="n">NS_SWIFT_ASYNC</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+
+<span class="cm">/**
+ * Refresh the current session with token
+ * @param authToken user authentication authToken
+ * @param callback callback with the error of the refreshSession
+ * @code [myNXNClient refreshSession:(NSString *)authToken callback:(void (^)(NSError * _Nullable))]
+ */</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">refreshSession</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">authToken</span> <span class="nf">callback</span><span class="p">:(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">error</span><span class="p">))</span><span class="nv">callback</span>
+<span class="n">NS_SWIFT_ASYNC</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
+
+<span class="cm">/**
+ This method is used to retrieve the details of a specific conversation.
+ 
+ - Parameters:
+    - conversationId: The ID of the conversation.
+    - callback: A function to be called upon completion of the method.
+ It takes in two parameters:
+ [Error] If an error occurs, this will contain information about the error. If the method is successful, this will be nil.
+ [Conversation] If the method is successful, this will contain the requested conversation. If an error occurs, this will be nil.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">getConversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Type%20Definitions.html#/c:VGConversation.h@T@VGConversationId">VGConversationId</a></span><span class="p">)</span><span class="nv">conversationId</span> <span class="nf">callback</span><span class="p">:(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">error</span><span class="p">,</span> <span class="n"><a href="../Classes/VGConversation.html">VGConversation</a></span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">conversation</span><span class="p">))</span><span class="nv">callback</span>
+<span class="n">NS_SWIFT_NAME</span><span class="p">(</span><span class="n">getConversation</span><span class="p">(</span><span class="n">_</span><span class="o">:</span><span class="n">callback</span><span class="o">:</span><span class="p">))</span>
+<span class="n">NS_SWIFT_ASYNC</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
+
+<span class="cm">/**
+ This method is used to retrieve a user object based on the provided user ID or name.
+ 
+ - Parameters:
+    - userIdOrName: The user ID or name of the user to retrieve.
+    - callback: A function to be called upon completion of the method.
+ It takes in two parameters:
+ [Error] If an error occurs, this will contain information about the error. If the method is successful, this will be nil.
+ [User] If the method is successful, this will contain the requested user. If an error occurs, this will be nil.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">getUser</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Type%20Definitions.html#/c:VGUser.h@T@VGUserIdOrName">VGUserIdOrName</a></span><span class="p">)</span><span class="nv">userIdOrName</span> <span class="nf">callback</span><span class="p">:(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">error</span><span class="p">,</span> <span class="n"><a href="../Classes/VGUser.html">VGUser</a></span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">user</span><span class="p">))</span><span class="nv">callback</span>
+<span class="n">NS_SWIFT_NAME</span><span class="p">(</span><span class="n">getUser</span><span class="p">(</span><span class="n">_</span><span class="o">:</span><span class="n">callback</span><span class="o">:</span><span class="p">))</span>
+<span class="n">NS_SWIFT_ASYNC</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
+
+<span class="k">+</span> <span class="p">(</span><span class="k">enum</span> <span class="n"><a href="../Enums/VGPushType.html">VGPushType</a></span><span class="p">)</span> <span class="nf">vonagePushType</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">dict</span><span class="p">;</span>
+
+<span class="cm">/**
+ * Register the device push and or VOIP token
+ * @param pushToken device token for voip push notifications
+ * @param userNotificationToken device token for non voip push notifications
+ * @param isSandbox are tokens for sandbox APNS push environment (default production)
+ * @param callback with the error and success with deviceId of the registerDevicePushToken
+ * @code [myNXNClient registerDevicePushToken:(NSData * _Nullable)pushToken userNotificationToken:(NSData * _Nullable) isSandbox:(Boolean * _Nullable) callback:(void (^)(NSError * _Nullable))]
+ */</span>
+
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">registerDevicePushToken</span><span class="p">:(</span><span class="n">NSData</span> <span class="o">*</span> <span class="n">_Nonnull</span><span class="p">)</span><span class="nv">pushToken</span> <span class="nf">userNotificationToken</span><span class="p">:(</span><span class="n">NSData</span> <span class="o">*</span> <span class="n">_Nonnull</span><span class="p">)</span><span class="nv">userNotificationToken</span> <span class="nf">isSandbox</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">isSandbox</span> <span class="nf">callback</span><span class="p">:(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">error</span><span class="p">,</span> <span class="n">NSString</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">deviceId</span><span class="p">))</span><span class="nv">callback</span>
+<span class="n">NS_SWIFT_ASYNC</span><span class="p">(</span><span class="mi">4</span><span class="p">);</span>
+
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">registerDevicePushToken</span><span class="p">:(</span> <span class="n">NSData</span> <span class="o">*</span> <span class="n">_Nonnull</span><span class="p">)</span><span class="nv">pushToken</span> <span class="nf">userNotificationToken</span><span class="p">:(</span><span class="n">NSData</span> <span class="o">*</span> <span class="n">_Nonnull</span><span class="p">)</span><span class="nv">userNotificationToken</span> <span class="nf">callback</span><span class="p">:(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">error</span><span class="p">,</span> <span class="n">NSString</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">deviceId</span><span class="p">))</span><span class="nv">callback</span>
+<span class="n">NS_SWIFT_ASYNC</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span>
+<span class="cm">/**
+ * Unregister the device push and or VOIP token
+ * @param deviceId device id returned from the registerDevicePushToken method
+ * @param callback callback with the error of the refreshSession
+ * @code [myNXNClient unregisterDeviceTokensByDeviceId:(nonnull NSString *)deviceId callback:(void (^)(NSError * _Nullable))]
+ */</span>
+
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">unregisterDeviceTokensByDeviceId</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">deviceId</span> <span class="nf">callback</span><span class="p">:(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">error</span><span class="p">))</span><span class="nv">callback</span>  
+<span class="n">NS_SWIFT_ASYNC</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
+
+
+<span class="k">@end</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VGBaseClient(py)delegate"></a>
+                    <a name="//apple_ref/objc/Property/delegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VGBaseClient(py)delegate">delegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">weak</span><span class="p">)</span> <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/VGBaseClientDelegate.html">VGBaseClientDelegate</a></span><span class="o">&gt;</span> <span class="n">delegate</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VGBaseClient(cm)setDefaultLoggingLevel:"></a>
+                    <a name="//apple_ref/objc/Method/+setDefaultLoggingLevel:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VGBaseClient(cm)setDefaultLoggingLevel:">+setDefaultLoggingLevel:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">setDefaultLoggingLevel</span><span class="p">:(</span><span class="n"><a href="../Enums/VGLoggingLevel.html">VGLoggingLevel</a></span><span class="p">)</span><span class="nv">level</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VGBaseClient(im)setConfig:"></a>
+                    <a name="//apple_ref/objc/Method/-setConfig:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VGBaseClient(im)setConfig:">-setConfig:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setConfig</span><span class="p">:(</span><span class="n"><a href="../Classes/VGClientConfig.html">VGClientConfig</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">config</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VGBaseClient(im)createSession:sessionId:callback:"></a>
+                    <a name="//apple_ref/objc/Method/-createSession:sessionId:callback:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VGBaseClient(im)createSession:sessionId:callback:">-createSession:<wbr>sessionId:<wbr>callback:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create a session using an authToken and a sessionId.</p>
+
+<p>Usage Example</p>
+<pre class="highlight objective_c"><code><span class="c1">//Swift</span>
+<span class="n">client</span><span class="p">.</span><span class="n">createSession</span><span class="p">(</span><span class="n">token</span><span class="p">,</span> <span class="n">oldSessionId</span><span class="p">)</span> <span class="p">{</span><span class="n">err</span><span class="p">,</span> <span class="n">sessionId</span> <span class="k">in</span>
+   <span class="k">if</span><span class="p">(</span><span class="n">sessionId</span><span class="p">)</span>
+       <span class="n">print</span><span class="p">(</span><span class="n">sessionId</span><span class="p">)</span>
+   <span class="k">else</span>
+       <span class="n">print</span><span class="p">(</span><span class="n">err</span><span class="p">)</span>
+<span class="p">}</span>
+<span class="c1">//Objective-C</span>
+<span class="p">[</span><span class="n">client</span> <span class="nf">createSession</span><span class="p">:</span><span class="n">token</span> <span class="nf">sessionId</span><span class="p">:</span><span class="n">oldSessionId</span> <span class="n">callback</span><span class="o">:^</span><span class="p">(</span><span class="n">NSError</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">error</span><span class="p">,</span> <span class="n">NSString</span> <span class="o">*</span> <span class="n">sessionId</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">sessionId</span><span class="p">)</span>
+        <span class="n">NSLog</span><span class="p">(</span><span class="s">@"Session was created successfully: %@"</span><span class="p">,</span> <span class="n">sessionId</span><span class="p">);</span>
+    <span class="k">else</span>
+        <span class="n">NSLog</span><span class="p">(</span><span class="s">@"Create session failed with %@"</span><span class="p">,</span> <span class="n">error</span><span class="p">);</span>
+<span class="p">}];</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">createSession</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">authToken</span>
+            <span class="nf">sessionId</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">)</span><span class="nv">sessionId</span>
+             <span class="nf">callback</span><span class="p">:(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">,</span>
+                                        <span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">))</span><span class="n">callback</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VGBaseClient(im)createSession:callback:"></a>
+                    <a name="//apple_ref/objc/Method/-createSession:callback:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VGBaseClient(im)createSession:callback:">-createSession:<wbr>callback:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Create a session using an authToken.</p>
+
+<p>Usage Example</p>
+<pre class="highlight objective_c"><code><span class="c1">//Swift</span>
+<span class="n">client</span><span class="p">.</span><span class="n">createSession</span><span class="p">(</span><span class="n">token</span><span class="p">)</span> <span class="p">{</span><span class="n">err</span><span class="p">,</span> <span class="n">sessionId</span> <span class="k">in</span>
+   <span class="k">if</span><span class="p">(</span><span class="n">sessionId</span><span class="p">)</span>
+       <span class="n">print</span><span class="p">(</span><span class="n">sessionId</span><span class="p">)</span>
+   <span class="k">else</span>
+       <span class="n">print</span><span class="p">(</span><span class="n">err</span><span class="p">)</span>
+<span class="p">}</span>
+<span class="c1">//Objective-C</span>
+<span class="p">[</span><span class="n">client</span> <span class="nf">createSession</span><span class="p">:</span><span class="n">token</span> <span class="nf">callback</span><span class="p">:</span><span class="o">^</span><span class="p">(</span><span class="n">NSError</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">error</span><span class="p">,</span> <span class="n">NSString</span> <span class="o">*</span> <span class="n">sessionId</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">sessionId</span><span class="p">)</span>
+        <span class="n">NSLog</span><span class="p">(</span><span class="s">@"Session was created successfully: %@"</span><span class="p">,</span> <span class="n">sessionId</span><span class="p">);</span>
+    <span class="k">else</span>
+        <span class="n">NSLog</span><span class="p">(</span><span class="s">@"Create session failed with %@"</span><span class="p">,</span> <span class="n">error</span><span class="p">);</span>
+<span class="p">}];</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">createSession</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">authToken</span>
+             <span class="nf">callback</span><span class="p">:(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">,</span>
+                                        <span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">))</span><span class="n">callback</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VGBaseClient(im)deleteSession:"></a>
+                    <a name="//apple_ref/objc/Method/-deleteSession:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VGBaseClient(im)deleteSession:">-deleteSession:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Delete session with an error callback</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">deleteSession</span><span class="p">:(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">))</span><span class="nv">callback</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>callback with the error of the deleteSession
+&ldquo;` [myNXNClient deleteSession:(void (^)(NSError * _Nullable)];</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VGBaseClient(im)refreshSession:callback:"></a>
+                    <a name="//apple_ref/objc/Method/-refreshSession:callback:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VGBaseClient(im)refreshSession:callback:">-refreshSession:<wbr>callback:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Refresh the current session with token</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">refreshSession</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">authToken</span>
+              <span class="nf">callback</span><span class="p">:(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">))</span><span class="nv">callback</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>authToken</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>user authentication authToken</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>callback with the error of the refreshSession
+&ldquo;` [myNXNClient refreshSession:(NSString *)authToken callback:(void (^)(NSError * _Nullable))]</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VGBaseClient(im)getConversation:callback:"></a>
+                    <a name="//apple_ref/objc/Method/-getConversation:callback:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VGBaseClient(im)getConversation:callback:">-getConversation:<wbr>callback:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This method is used to retrieve the details of a specific conversation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">getConversation</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Type%20Definitions.html#/c:VGConversation.h@T@VGConversationId">VGConversationId</a></span><span class="p">)</span><span class="nv">conversationId</span>
+               <span class="nf">callback</span><span class="p">:(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">,</span>
+                                          <span class="n"><a href="../Classes/VGConversation.html">VGConversation</a></span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">))</span><span class="n">callback</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VGBaseClient(im)getUser:callback:"></a>
+                    <a name="//apple_ref/objc/Method/-getUser:callback:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VGBaseClient(im)getUser:callback:">-getUser:<wbr>callback:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This method is used to retrieve a user object based on the provided user ID or name.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">getUser</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Type%20Definitions.html#/c:VGUser.h@T@VGUserIdOrName">VGUserIdOrName</a></span><span class="p">)</span><span class="nv">userIdOrName</span>
+       <span class="nf">callback</span><span class="p">:</span>
+           <span class="p">(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">,</span> <span class="n"><a href="../Classes/VGUser.html">VGUser</a></span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">))</span><span class="nv">callback</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VGBaseClient(cm)vonagePushType:"></a>
+                    <a name="//apple_ref/objc/Method/+vonagePushType:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VGBaseClient(cm)vonagePushType:">+vonagePushType:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="k">enum</span> <span class="n"><a href="../Enums/VGPushType.html">VGPushType</a></span><span class="p">)</span> <span class="nf">vonagePushType</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">dict</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VGBaseClient(im)registerDevicePushToken:userNotificationToken:isSandbox:callback:"></a>
+                    <a name="//apple_ref/objc/Method/-registerDevicePushToken:userNotificationToken:isSandbox:callback:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VGBaseClient(im)registerDevicePushToken:userNotificationToken:isSandbox:callback:">-registerDevicePushToken:<wbr>userNotificationToken:<wbr>isSandbox:<wbr>callback:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Register the device push and or VOIP token</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">registerDevicePushToken</span><span class="p">:(</span><span class="n">NSData</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">)</span><span class="nv">pushToken</span>
+          <span class="nf">userNotificationToken</span><span class="p">:(</span><span class="n">NSData</span> <span class="o">*</span><span class="n">_Nonnull</span><span class="p">)</span><span class="nv">userNotificationToken</span>
+                      <span class="nf">isSandbox</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">isSandbox</span>
+                       <span class="nf">callback</span><span class="p">:(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">,</span>
+                                                  <span class="n">NSString</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">))</span><span class="n">callback</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pushToken</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>device token for voip push notifications</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userNotificationToken</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>device token for non voip push notifications</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>isSandbox</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>are tokens for sandbox APNS push environment (default production)</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>with the error and success with deviceId of the registerDevicePushToken
+&ldquo;` [myNXNClient registerDevicePushToken:(NSData * _Nullable)pushToken userNotificationToken:(NSData * _Nullable) isSandbox:(Boolean * _Nullable) callback:(void (^)(NSError * _Nullable))]</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VGBaseClient(im)registerDevicePushToken:userNotificationToken:callback:"></a>
+                    <a name="//apple_ref/objc/Method/-registerDevicePushToken:userNotificationToken:callback:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VGBaseClient(im)registerDevicePushToken:userNotificationToken:callback:">-registerDevicePushToken:<wbr>userNotificationToken:<wbr>callback:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">registerDevicePushToken</span><span class="p">:(</span> <span class="n">NSData</span> <span class="o">*</span> <span class="n">_Nonnull</span><span class="p">)</span><span class="nv">pushToken</span> <span class="nf">userNotificationToken</span><span class="p">:(</span><span class="n">NSData</span> <span class="o">*</span> <span class="n">_Nonnull</span><span class="p">)</span><span class="nv">userNotificationToken</span> <span class="nf">callback</span><span class="p">:(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">error</span><span class="p">,</span> <span class="n">NSString</span> <span class="o">*</span> <span class="n">_Nullable</span> <span class="n">deviceId</span><span class="p">))</span><span class="nv">callback</span>
+<span class="n">NS_SWIFT_ASYNC</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)VGBaseClient(im)unregisterDeviceTokensByDeviceId:callback:"></a>
+                    <a name="//apple_ref/objc/Method/-unregisterDeviceTokensByDeviceId:callback:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)VGBaseClient(im)unregisterDeviceTokensByDeviceId:callback:">-unregisterDeviceTokensByDeviceId:<wbr>callback:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Unregister the device push and or VOIP token</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">unregisterDeviceTokensByDeviceId</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">deviceId</span>
+                                <span class="nf">callback</span><span class="p">:(</span><span class="n">nonnull</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSError</span> <span class="o">*</span><span class="n">_Nullable</span><span class="p">))</span>
+                                             <span class="n">callback</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>deviceId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>device id returned from the registerDevicePushToken method</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>callback</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>callback with the error of the refreshSession
+&ldquo;` [myNXNClient unregisterDeviceTokensByDeviceId:(nonnull NSString *)deviceId callback:(void (^)(NSError * _Nullable))]</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2023 <a class="link" href="" target="_blank" rel="external noopener">Vonage</a>. All rights reserved. (Last updated: 2023-05-03)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

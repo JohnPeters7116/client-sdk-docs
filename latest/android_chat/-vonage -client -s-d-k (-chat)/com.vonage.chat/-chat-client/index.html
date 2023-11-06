@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>ChatClient</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+<link href="../../../images/logo-icon.svg">
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>Vonage Client SDK (Chat)</span>
+            </a>
+    </div>
+    <div>
+1.0.0    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="Vonage Client SDK (Chat)::com.vonage.chat/ChatClient///PointingToDeclaration//-1869831964">
+  <div class="breadcrumbs"><a href="../../../index.html">Vonage Client SDK (Chat)</a><span class="delimiter">/</span><a href="../index.html">com.vonage.chat</a><span class="delimiter">/</span><span class="current">ChatClient</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Chat</span><wbr></wbr><span><span>Client</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">final </span><span class="token keyword"></span><span class="token keyword">class </span><a href="index.html">ChatClient</a><span class="token keyword"> implements </span><span data-unresolved-link="com.vonage.android_core/VGSessionAPI///PointingToDeclaration/">VGSessionAPI</span><span class="token punctuation">, </span><span data-unresolved-link="com.vonage.android_core/VGSessionListenerAPI///PointingToDeclaration/">VGSessionListenerAPI</span><span class="token punctuation">, </span><span data-unresolved-link="com.vonage.android_core/VGConversationAPI///PointingToDeclaration/">VGConversationAPI</span><span class="token punctuation">, </span><a href="../-v-g-chat-a-p-i/index.html">VGChatAPI</a><span class="token punctuation">, </span><a href="../-v-g-chat-callback-a-p-i/index.html">VGChatCallbackAPI</a></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Functions">Functions</button></div>
+    <div class="tabs-section-body">
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="1287126392%2FFunctions%2F-1869831964" anchor-label="createConversation" id="1287126392%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-v-g-chat-a-p-i/create-conversation.html"><span>create</span><wbr></wbr><span><span>Conversation</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1287126392%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="../-v-g-chat-a-p-i/create-conversation.html"><span class="token function">createConversation</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> name<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> displayName</span></span><span class="token punctuation">)</span></div><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="../-v-g-chat-a-p-i/create-conversation.html"><span class="token function">createConversation</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> name<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> displayName<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function2///PointingToDeclaration/">Function2</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Exception.html">Exception</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> callback</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">This method is used to create a new conversation with the provided name and display name.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-140565360%2FFunctions%2F-1869831964" anchor-label="createSession" id="-140565360%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#161219158%2FFunctions%2F-1869831964"><span>create</span><wbr></wbr><span><span>Session</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-140565360%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="index.html#161219158%2FFunctions%2F-1869831964"><span class="token function">createSession</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> token<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function2///PointingToDeclaration/">Function2</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Exception.html">Exception</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> callback</span></span><span class="token punctuation">)</span></div><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="index.html#897981326%2FFunctions%2F-1869831964"><span class="token function">createSession</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> token<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> sessionId</span></span><span class="token punctuation">)</span></div><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="index.html#1886163284%2FFunctions%2F-1869831964"><span class="token function">createSession</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> token<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> sessionId<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function2///PointingToDeclaration/">Function2</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Exception.html">Exception</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> callback</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1677589426%2FFunctions%2F-1869831964" anchor-label="deleteConversation" id="-1677589426%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-v-g-chat-a-p-i/delete-conversation.html"><span>delete</span><wbr></wbr><span><span>Conversation</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1677589426%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="../-v-g-chat-a-p-i/delete-conversation.html"><span class="token function">deleteConversation</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cid</span></span><span class="token punctuation">)</span></div><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="../-v-g-chat-a-p-i/delete-conversation.html"><span class="token function">deleteConversation</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cid<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function1///PointingToDeclaration/">Function1</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Exception.html">Exception</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> callback</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">This method is used to delete an existing conversation with a provided conversation ID.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-164317337%2FFunctions%2F-1869831964" anchor-label="deleteSession" id="-164317337%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#-1764105949%2FFunctions%2F-1869831964"><span>delete</span><wbr></wbr><span><span>Session</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-164317337%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="index.html#-1764105949%2FFunctions%2F-1869831964"><span class="token function">deleteSession</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="index.html#616253918%2FFunctions%2F-1869831964"><span class="token function">deleteSession</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function1///PointingToDeclaration/">Function1</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Exception.html">Exception</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> callback</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1932841005%2FFunctions%2F-1869831964" anchor-label="getConversation" id="1932841005%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#-1278689074%2FFunctions%2F-1869831964"><span>get</span><wbr></wbr><span><span>Conversation</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1932841005%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api.models/Conversation///PointingToDeclaration/">Conversation</span> <a href="index.html#-1278689074%2FFunctions%2F-1869831964"><span class="token function">getConversation</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> conversationId</span></span><span class="token punctuation">)</span></div><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="index.html#261882445%2FFunctions%2F-1869831964"><span class="token function">getConversation</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> conversationId<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function2///PointingToDeclaration/">Function2</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Exception.html">Exception</a><span class="token punctuation">, </span><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api.models/Conversation///PointingToDeclaration/">Conversation</span><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> callback</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="953485126%2FFunctions%2F-1869831964" anchor-label="getConversationEvents" id="953485126%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-v-g-chat-a-p-i/get-conversation-events.html"><span>get</span><wbr></wbr><span>Conversation</span><wbr></wbr><span><span>Events</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="953485126%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="../../com.vonage.chat.models/-v-g-events-page/index.html">VGEventsPage</a> <a href="../-v-g-chat-a-p-i/get-conversation-events.html"><span class="token function">getConversationEvents</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cid<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api.models/PresentingOrder///PointingToDeclaration/">PresentingOrder</span> order<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Integer.html">Integer</a> pageSize<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cursor</span></span><span class="token punctuation">)</span></div><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="../-v-g-chat-a-p-i/get-conversation-events.html"><span class="token function">getConversationEvents</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cid<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api.models/PresentingOrder///PointingToDeclaration/">PresentingOrder</span> order<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Integer.html">Integer</a> pageSize<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cursor<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function2///PointingToDeclaration/">Function2</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Exception.html">Exception</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="../../com.vonage.chat.models/-v-g-events-page/index.html">VGEventsPage</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> callback</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">This method is used to retrieve a list of Events that belong to a specific conversation.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-625618952%2FFunctions%2F-1869831964" anchor-label="getConversationMember" id="-625618952%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-v-g-chat-a-p-i/get-conversation-member.html"><span>get</span><wbr></wbr><span>Conversation</span><wbr></wbr><span><span>Member</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-625618952%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="../../com.vonage.chat.models/-v-g-member/index.html">VGMember</a> <a href="../-v-g-chat-a-p-i/get-conversation-member.html"><span class="token function">getConversationMember</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cid<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> mid</span></span><span class="token punctuation">)</span></div><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="../-v-g-chat-a-p-i/get-conversation-member.html"><span class="token function">getConversationMember</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cid<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> mid<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function2///PointingToDeclaration/">Function2</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Exception.html">Exception</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="../../com.vonage.chat.models/-v-g-member/index.html">VGMember</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> callback</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">This method is used get the member details of a specific member in a conversation</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1873267674%2FFunctions%2F-1869831964" anchor-label="getConversationMembers" id="-1873267674%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-v-g-chat-a-p-i/get-conversation-members.html"><span>get</span><wbr></wbr><span>Conversation</span><wbr></wbr><span><span>Members</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1873267674%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api.models/MembersPage///PointingToDeclaration/">MembersPage</span> <a href="../-v-g-chat-a-p-i/get-conversation-members.html"><span class="token function">getConversationMembers</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cid<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api.models/PresentingOrder///PointingToDeclaration/">PresentingOrder</span> order<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Integer.html">Integer</a> pageSize<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cursor</span></span><span class="token punctuation">)</span></div><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="../-v-g-chat-a-p-i/get-conversation-members.html"><span class="token function">getConversationMembers</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cid<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api.models/PresentingOrder///PointingToDeclaration/">PresentingOrder</span> order<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Integer.html">Integer</a> pageSize<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cursor<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function2///PointingToDeclaration/">Function2</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Exception.html">Exception</a><span class="token punctuation">, </span><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api.models/MembersPage///PointingToDeclaration/">MembersPage</span><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> callback</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">This method is used to retrieve a list of members that belong to a specific conversation.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="892099961%2FFunctions%2F-1869831964" anchor-label="getConversations" id="892099961%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-v-g-chat-a-p-i/get-conversations.html"><span>get</span><wbr></wbr><span><span>Conversations</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="892099961%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api.models/ConversationsPage///PointingToDeclaration/">ConversationsPage</span> <a href="../-v-g-chat-a-p-i/get-conversations.html"><span class="token function">getConversations</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api.models/PresentingOrder///PointingToDeclaration/">PresentingOrder</span> order<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Integer.html">Integer</a> pageSize<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cursor</span></span><span class="token punctuation">)</span></div><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="../-v-g-chat-a-p-i/get-conversations.html"><span class="token function">getConversations</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api.models/PresentingOrder///PointingToDeclaration/">PresentingOrder</span> order<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Integer.html">Integer</a> pageSize<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cursor<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function2///PointingToDeclaration/">Function2</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Exception.html">Exception</a><span class="token punctuation">, </span><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api.models/ConversationsPage///PointingToDeclaration/">ConversationsPage</span><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> callback</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">This method is used to retrieve a list of conversations that the user is a member of.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1242297595%2FFunctions%2F-1869831964" anchor-label="getUser" id="-1242297595%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#125730326%2FFunctions%2F-1869831964"><span>get</span><wbr></wbr><span><span>User</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1242297595%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api.models/User///PointingToDeclaration/">User</span> <a href="index.html#125730326%2FFunctions%2F-1869831964"><span class="token function">getUser</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> userIdOrName</span></span><span class="token punctuation">)</span></div><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="index.html#1205998013%2FFunctions%2F-1869831964"><span class="token function">getUser</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> userIdOrName<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function2///PointingToDeclaration/">Function2</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Exception.html">Exception</a><span class="token punctuation">, </span><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api.models/User///PointingToDeclaration/">User</span><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> callback</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1049858340%2FFunctions%2F-1869831964" anchor-label="inviteToConversation" id="-1049858340%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-v-g-chat-a-p-i/invite-to-conversation.html"><span>invite</span><wbr></wbr><span>To</span><wbr></wbr><span><span>Conversation</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1049858340%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="../-v-g-chat-a-p-i/invite-to-conversation.html"><span class="token function">inviteToConversation</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cid<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> username</span></span><span class="token punctuation">)</span></div><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="../-v-g-chat-a-p-i/invite-to-conversation.html"><span class="token function">inviteToConversation</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cid<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> username<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function2///PointingToDeclaration/">Function2</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Exception.html">Exception</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> callback</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">This method is used to invite a user to an existing conversation with a provided conversation ID and username.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="786991070%2FFunctions%2F-1869831964" anchor-label="joinConversation" id="786991070%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-v-g-chat-a-p-i/join-conversation.html"><span>join</span><wbr></wbr><span><span>Conversation</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="786991070%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="../-v-g-chat-a-p-i/join-conversation.html"><span class="token function">joinConversation</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cid</span></span><span class="token punctuation">)</span></div><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="../-v-g-chat-a-p-i/join-conversation.html"><span class="token function">joinConversation</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cid<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function2///PointingToDeclaration/">Function2</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Exception.html">Exception</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> callback</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">This method is used to join an existing conversation with a provided conversation ID.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-718711144%2FFunctions%2F-1869831964" anchor-label="leaveConversation" id="-718711144%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-v-g-chat-a-p-i/leave-conversation.html"><span>leave</span><wbr></wbr><span><span>Conversation</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-718711144%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="../-v-g-chat-a-p-i/leave-conversation.html"><span class="token function">leaveConversation</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cid</span></span><span class="token punctuation">)</span></div><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="../-v-g-chat-a-p-i/leave-conversation.html"><span class="token function">leaveConversation</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cid<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function1///PointingToDeclaration/">Function1</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Exception.html">Exception</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> callback</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">This method is used to leave an existing conversation with a provided conversation ID.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-2004006536%2FFunctions%2F-1869831964" anchor-label="refreshSession" id="-2004006536%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#-1074044141%2FFunctions%2F-1869831964"><span>refresh</span><wbr></wbr><span><span>Session</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2004006536%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="index.html#-1074044141%2FFunctions%2F-1869831964"><span class="token function">refreshSession</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> token</span></span><span class="token punctuation">)</span></div><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="index.html#-1715895737%2FFunctions%2F-1869831964"><span class="token function">refreshSession</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> token<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function1///PointingToDeclaration/">Function1</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Exception.html">Exception</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> callback</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2013638918%2FFunctions%2F-1869831964" anchor-label="sendTextMessage" id="2013638918%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-v-g-chat-a-p-i/send-text-message.html"><span>send</span><wbr></wbr><span>Text</span><wbr></wbr><span><span>Message</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2013638918%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> <a href="../-v-g-chat-a-p-i/send-text-message.html"><span class="token function">sendTextMessage</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cid<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> text</span></span><span class="token punctuation">)</span></div><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="../-v-g-chat-a-p-i/send-text-message.html"><span class="token function">sendTextMessage</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> cid<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> text<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function2///PointingToDeclaration/">Function2</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Exception.html">Exception</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> callback</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">This method is used to send a text message to a specific conversation.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="420579876%2FFunctions%2F-1869831964" anchor-label="setConfig" id="420579876%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#420579876%2FFunctions%2F-1869831964"><span>set</span><wbr></wbr><span><span>Config</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="420579876%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="index.html#420579876%2FFunctions%2F-1869831964"><span class="token function">setConfig</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="com.vonage.android_core/VGClientConfig///PointingToDeclaration/">VGClientConfig</span> config</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1049157496%2FFunctions%2F-1869831964" anchor-label="setOnConversationEventListener" id="-1049157496%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-v-g-chat-callback-a-p-i/set-on-conversation-event-listener.html"><span>set</span><wbr></wbr><span>On</span><wbr></wbr><span>Conversation</span><wbr></wbr><span>Event</span><wbr></wbr><span><span>Listener</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1049157496%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function0///PointingToDeclaration/">Function0</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> <a href="../-v-g-chat-callback-a-p-i/set-on-conversation-event-listener.html"><span class="token function">setOnConversationEventListener</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function1///PointingToDeclaration/">Function1</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../com.vonage.chat.models/-v-g-conversation-event/index.html">VGConversationEvent</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> fn</span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">This method allows to set the listener to be called whenever an event happens for the conversation in a chat application.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="376094725%2FFunctions%2F-1869831964" anchor-label="setReconnectingListener" id="376094725%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#376094725%2FFunctions%2F-1869831964"><span>set</span><wbr></wbr><span>Reconnecting</span><wbr></wbr><span><span>Listener</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="376094725%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function0///PointingToDeclaration/">Function0</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> <a href="index.html#376094725%2FFunctions%2F-1869831964"><span class="token function">setReconnectingListener</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function0///PointingToDeclaration/">Function0</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> fn</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1035493803%2FFunctions%2F-1869831964" anchor-label="setReconnectionListener" id="1035493803%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#1035493803%2FFunctions%2F-1869831964"><span>set</span><wbr></wbr><span>Reconnection</span><wbr></wbr><span><span>Listener</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1035493803%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function0///PointingToDeclaration/">Function0</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> <a href="index.html#1035493803%2FFunctions%2F-1869831964"><span class="token function">setReconnectionListener</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function0///PointingToDeclaration/">Function0</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> fn</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1368435251%2FFunctions%2F-1869831964" anchor-label="setSessionErrorListener" id="-1368435251%2FFunctions%2F-1869831964" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:chat:dokkaHtml/release" data-filterable-set=":vonagesdk_android:chat:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="index.html#-1368435251%2FFunctions%2F-1869831964"><span>set</span><wbr></wbr><span>Session</span><wbr></wbr><span>Error</span><wbr></wbr><span><span>Listener</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1368435251%2FFunctions%2F-1869831964"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:chat:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function0///PointingToDeclaration/">Function0</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> <a href="index.html#-1368435251%2FFunctions%2F-1869831964"><span class="token function">setSessionErrorListener</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function1///PointingToDeclaration/">Function1</span><span class="token operator">&lt;</span><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api/SessionErrorReason///PointingToDeclaration/">SessionErrorReason</span><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> fn</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>(c) 2023 Vonage Inc.</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

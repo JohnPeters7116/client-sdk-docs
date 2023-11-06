@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>VGVoiceCallbackAPIImpl</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+<link href="../../../images/logo-icon.svg">
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>Vonage ClientSDK (Voice)</span>
+            </a>
+    </div>
+    <div>
+1.0.0    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="Vonage ClientSDK (Voice)::com.vonage.voice.api/VGVoiceCallbackAPIImpl///PointingToDeclaration//1376049208">
+  <div class="breadcrumbs"><a href="../../../index.html">Vonage ClientSDK (Voice)</a><span class="delimiter">/</span><a href="../index.html">com.vonage.voice.api</a><span class="delimiter">/</span><span class="current">VGVoiceCallbackAPIImpl</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>VGVoice</span><wbr></wbr><span>Callback</span><wbr></wbr><span><span>APIImpl</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:voice:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">public </span><span class="token keyword">final </span><span class="token keyword"></span><span class="token keyword">class </span><a href="index.html">VGVoiceCallbackAPIImpl</a><span class="token keyword"> implements </span><span data-unresolved-link="com.vonage.clientcore.core.api/VoiceClientListener///PointingToDeclaration/">VoiceClientListener</span><span class="token punctuation">, </span><a href="../-v-g-voice-callback-a-p-i/index.html">VGVoiceCallbackAPI</a></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button></div>
+    <div class="tabs-section-body">
+      <h2 class="tabbedcontent">Constructors</h2>
+      <div class="table" data-togglable="Constructors"><a data-name="-604918523%2FConstructors%2F1376049208" anchor-label="VGVoiceCallbackAPIImpl" id="-604918523%2FConstructors%2F1376049208" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:voice:dokkaHtml/release" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release">
+          <div class="main-subrow keyValue TabbedContent">
+            <div class=""><span class="inline-flex">
+                <div><a href="-v-g-voice-callback-a-p-i-impl.html"><span>VGVoice</span><wbr></wbr><span>Callback</span><wbr></wbr><span><span>APIImpl</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-604918523%2FConstructors%2F1376049208"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:voice:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="index.html">VGVoiceCallbackAPIImpl</a> <a href="-v-g-voice-callback-a-p-i-impl.html"><span class="token function">VGVoiceCallbackAPIImpl</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="com.vonage.android_core/CallbackHandler///PointingToDeclaration/">CallbackHandler</span> userCallbackHandler<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/util/concurrent/ExecutorService.html">ExecutorService</a> executor</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="-1493255760%2FFunctions%2F1376049208" anchor-label="onCallHangup" id="-1493255760%2FFunctions%2F1376049208" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:voice:dokkaHtml/release" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-call-hangup.html"><span>on</span><wbr></wbr><span>Call</span><wbr></wbr><span><span>Hangup</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1493255760%2FFunctions%2F1376049208"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:voice:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="on-call-hangup.html"><span class="token function">onCallHangup</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> callId<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.conversation/RTCQuality///PointingToDeclaration/">RTCQuality</span> callQuality<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api/HangupReason///PointingToDeclaration/">HangupReason</span> reason</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="202041638%2FFunctions%2F1376049208" anchor-label="onCallInvite" id="202041638%2FFunctions%2F1376049208" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:voice:dokkaHtml/release" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-call-invite.html"><span>on</span><wbr></wbr><span>Call</span><wbr></wbr><span><span>Invite</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="202041638%2FFunctions%2F1376049208"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:voice:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="on-call-invite.html"><span class="token function">onCallInvite</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> callId<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> from<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.conversation/VoiceChannelType///PointingToDeclaration/">VoiceChannelType</span> channelType</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-2042887038%2FFunctions%2F1376049208" anchor-label="onCallInviteCancel" id="-2042887038%2FFunctions%2F1376049208" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:voice:dokkaHtml/release" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-call-invite-cancel.html"><span>on</span><wbr></wbr><span>Call</span><wbr></wbr><span>Invite</span><wbr></wbr><span><span>Cancel</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2042887038%2FFunctions%2F1376049208"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:voice:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="on-call-invite-cancel.html"><span class="token function">onCallInviteCancel</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> callId<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api/VoiceInviteCancelReason///PointingToDeclaration/">VoiceInviteCancelReason</span> reason</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2122169351%2FFunctions%2F1376049208" anchor-label="onCallTransfer" id="2122169351%2FFunctions%2F1376049208" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:voice:dokkaHtml/release" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-call-transfer.html"><span>on</span><wbr></wbr><span>Call</span><wbr></wbr><span><span>Transfer</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2122169351%2FFunctions%2F1376049208"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:voice:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="on-call-transfer.html"><span class="token function">onCallTransfer</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> callId<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> conversationId</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1792424267%2FFunctions%2F1376049208" anchor-label="onDTMFUpdate" id="-1792424267%2FFunctions%2F1376049208" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:voice:dokkaHtml/release" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-d-t-m-f-update.html"><span>on</span><wbr></wbr><span><span>DTMFUpdate</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1792424267%2FFunctions%2F1376049208"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:voice:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="on-d-t-m-f-update.html"><span class="token function">onDTMFUpdate</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> callId<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> legId<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> digits</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="697545091%2FFunctions%2F1376049208" anchor-label="onEarmuffUpdate" id="697545091%2FFunctions%2F1376049208" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:voice:dokkaHtml/release" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-earmuff-update.html"><span>on</span><wbr></wbr><span>Earmuff</span><wbr></wbr><span><span>Update</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="697545091%2FFunctions%2F1376049208"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:voice:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="on-earmuff-update.html"><span class="token function">onEarmuffUpdate</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> callId<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> legId<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Boolean.html">Boolean</a> earmuffStatus</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1769264302%2FFunctions%2F1376049208" anchor-label="onLegStatusUpdate" id="-1769264302%2FFunctions%2F1376049208" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:voice:dokkaHtml/release" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-leg-status-update.html"><span>on</span><wbr></wbr><span>Leg</span><wbr></wbr><span>Status</span><wbr></wbr><span><span>Update</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1769264302%2FFunctions%2F1376049208"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:voice:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="on-leg-status-update.html"><span class="token function">onLegStatusUpdate</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> callId<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> legId<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api/LegStatus///PointingToDeclaration/">LegStatus</span> status</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="118153636%2FFunctions%2F1376049208" anchor-label="onMuteUpdate" id="118153636%2FFunctions%2F1376049208" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:voice:dokkaHtml/release" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-mute-update.html"><span>on</span><wbr></wbr><span>Mute</span><wbr></wbr><span><span>Update</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="118153636%2FFunctions%2F1376049208"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:voice:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="on-mute-update.html"><span class="token function">onMuteUpdate</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> callId<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> legId<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Boolean.html">Boolean</a> isMuted</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1439229356%2FFunctions%2F1376049208" anchor-label="onPushCallInvite" id="1439229356%2FFunctions%2F1376049208" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:voice:dokkaHtml/release" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="on-push-call-invite.html"><span>on</span><wbr></wbr><span>Push</span><wbr></wbr><span>Call</span><wbr></wbr><span><span>Invite</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1439229356%2FFunctions%2F1376049208"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:voice:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword">final </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a> <a href="on-push-call-invite.html"><span class="token function">onPushCallInvite</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> callId<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a> from<span class="token punctuation">, </span></span><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.conversation/VoiceChannelType///PointingToDeclaration/">VoiceChannelType</span> channelType</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2000290272%2FFunctions%2F1376049208" anchor-label="setCallInviteCancelListener" id="2000290272%2FFunctions%2F1376049208" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:voice:dokkaHtml/release" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-call-invite-cancel-listener.html"><span>set</span><wbr></wbr><span>Call</span><wbr></wbr><span>Invite</span><wbr></wbr><span>Cancel</span><wbr></wbr><span><span>Listener</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2000290272%2FFunctions%2F1376049208"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:voice:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function0///PointingToDeclaration/">Function0</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> <a href="set-call-invite-cancel-listener.html"><span class="token function">setCallInviteCancelListener</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function2///PointingToDeclaration/">Function2</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api/VoiceInviteCancelReason///PointingToDeclaration/">VoiceInviteCancelReason</span><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> fn</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1884984088%2FFunctions%2F1376049208" anchor-label="setCallInviteListener" id="1884984088%2FFunctions%2F1376049208" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:voice:dokkaHtml/release" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-call-invite-listener.html"><span>set</span><wbr></wbr><span>Call</span><wbr></wbr><span>Invite</span><wbr></wbr><span><span>Listener</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1884984088%2FFunctions%2F1376049208"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:voice:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function0///PointingToDeclaration/">Function0</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> <a href="set-call-invite-listener.html"><span class="token function">setCallInviteListener</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function3///PointingToDeclaration/">Function3</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.conversation/VoiceChannelType///PointingToDeclaration/">VoiceChannelType</span><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> fn</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1844130469%2FFunctions%2F1376049208" anchor-label="setCallTransferListener" id="-1844130469%2FFunctions%2F1376049208" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:voice:dokkaHtml/release" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-call-transfer-listener.html"><span>set</span><wbr></wbr><span>Call</span><wbr></wbr><span>Transfer</span><wbr></wbr><span><span>Listener</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1844130469%2FFunctions%2F1376049208"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:voice:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function0///PointingToDeclaration/">Function0</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> <a href="set-call-transfer-listener.html"><span class="token function">setCallTransferListener</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function2///PointingToDeclaration/">Function2</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> fn</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="899968181%2FFunctions%2F1376049208" anchor-label="setOnCallHangupListener" id="899968181%2FFunctions%2F1376049208" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:voice:dokkaHtml/release" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-on-call-hangup-listener.html"><span>set</span><wbr></wbr><span>On</span><wbr></wbr><span>Call</span><wbr></wbr><span>Hangup</span><wbr></wbr><span><span>Listener</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="899968181%2FFunctions%2F1376049208"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:voice:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function0///PointingToDeclaration/">Function0</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> <a href="set-on-call-hangup-listener.html"><span class="token function">setOnCallHangupListener</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function3///PointingToDeclaration/">Function3</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.conversation/RTCQuality///PointingToDeclaration/">RTCQuality</span><span class="token punctuation">, </span><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api/HangupReason///PointingToDeclaration/">HangupReason</span><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> fn</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="164843661%2FFunctions%2F1376049208" anchor-label="setOnDTMFListener" id="164843661%2FFunctions%2F1376049208" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:voice:dokkaHtml/release" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-on-d-t-m-f-listener.html"><span>set</span><wbr></wbr><span>On</span><wbr></wbr><span><span>DTMFListener</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="164843661%2FFunctions%2F1376049208"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:voice:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function0///PointingToDeclaration/">Function0</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> <a href="set-on-d-t-m-f-listener.html"><span class="token function">setOnDTMFListener</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function3///PointingToDeclaration/">Function3</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> fn</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1597186949%2FFunctions%2F1376049208" anchor-label="setOnEarmuffListener" id="1597186949%2FFunctions%2F1376049208" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:voice:dokkaHtml/release" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-on-earmuff-listener.html"><span>set</span><wbr></wbr><span>On</span><wbr></wbr><span>Earmuff</span><wbr></wbr><span><span>Listener</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1597186949%2FFunctions%2F1376049208"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:voice:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function0///PointingToDeclaration/">Function0</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> <a href="set-on-earmuff-listener.html"><span class="token function">setOnEarmuffListener</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function3///PointingToDeclaration/">Function3</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Boolean.html">Boolean</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> fn</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2124757469%2FFunctions%2F1376049208" anchor-label="setOnLegStatusUpdate" id="2124757469%2FFunctions%2F1376049208" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:voice:dokkaHtml/release" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-on-leg-status-update.html"><span>set</span><wbr></wbr><span>On</span><wbr></wbr><span>Leg</span><wbr></wbr><span>Status</span><wbr></wbr><span><span>Update</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2124757469%2FFunctions%2F1376049208"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:voice:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function0///PointingToDeclaration/">Function0</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> <a href="set-on-leg-status-update.html"><span class="token function">setOnLegStatusUpdate</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function3///PointingToDeclaration/">Function3</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><span data-unresolved-link="com.vonage.clientcore.core.api/LegStatus///PointingToDeclaration/">LegStatus</span><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> fn</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1742203128%2FFunctions%2F1376049208" anchor-label="setOnMutedListener" id="1742203128%2FFunctions%2F1376049208" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":vonagesdk_android:voice:dokkaHtml/release" data-filterable-set=":vonagesdk_android:voice:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="set-on-muted-listener.html"><span>set</span><wbr></wbr><span>On</span><wbr></wbr><span>Muted</span><wbr></wbr><span><span>Listener</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1742203128%2FFunctions%2F1376049208"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":vonagesdk_android:voice:dokkaHtml/release"><div class="symbol monospace block"><span class="token keyword">public </span><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function0///PointingToDeclaration/">Function0</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> <a href="set-on-muted-listener.html"><span class="token function">setOnMutedListener</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter "><span class="token keyword"></span><span data-unresolved-link="kotlin.jvm.functions/Function3///PointingToDeclaration/">Function3</span><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/String.html">String</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://developer.android.com/reference/kotlin/java/lang/Boolean.html">Boolean</a><span class="token punctuation">, </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator">&gt;</span> fn</span></span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>(c) 2023 Vonage Inc.</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

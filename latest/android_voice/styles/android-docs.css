@@ -1,0 +1,5 @@
+:root {
+    --italic-font-path: url('assets/SpeziaCompleteVariableItalicWeb.woff2');
+    --upright-font-path: url('assets/SpeziaCompleteVariableUprightWeb.woff2');
+    --mono-font-path: url('assets/SpeziaMonoCompleteVariableWeb.woff2');
+}

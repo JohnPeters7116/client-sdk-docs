@@ -1,0 +1,2546 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDK.framework/Headers/VGVonageClient.h",
+      "line": 15,
+      "symbol": "VGClientDelegate",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDK.framework/Headers/VGVonageClient.h",
+      "line": 18,
+      "symbol": "VGVonageClient",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDK.framework/Headers/VGVonageClient.h",
+      "line": 20,
+      "symbol": "VGVonageClient.delegate",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDK.framework/Headers/VonageClientSDK.h",
+      "line": 11,
+      "symbol": "VonageClientSDKVersionNumber",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDK.framework/Headers/VonageClientSDK.h",
+      "line": 14,
+      "symbol": "VonageClientSDKVersionString",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGChatClient.h",
+      "line": 18,
+      "symbol": "VGPresentingOrder",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGChatClient.h",
+      "line": 18,
+      "symbol": "VGPresentingOrder",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGChatClient.h",
+      "line": 19,
+      "symbol": "VGPresentingOrder.VGPresentingOrderAsc",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGChatClient.h",
+      "line": 20,
+      "symbol": "VGPresentingOrder.VGPresentingOrderDesc",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGChatClient.h",
+      "line": 26,
+      "symbol": "VGChatClientAPI",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGChatClient.h",
+      "line": 318,
+      "symbol": "VGChatClientDelegate",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGChatClient.h",
+      "line": 332,
+      "symbol": "VGChatClient",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGChatClient.h",
+      "line": 333,
+      "symbol": "VGChatClient.delegate",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGChatClient.h",
+      "line": 335,
+      "symbol": "VGChatClient.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGConversationEvent.h",
+      "line": 12,
+      "symbol": "VGEventId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGConversationEvent.h",
+      "line": 13,
+      "symbol": "VGEventTimestamp",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGConversationEvent.h",
+      "line": 17,
+      "symbol": "VGConversationEvent",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGConversationEvent.h",
+      "line": 18,
+      "symbol": "VGConversationEvent.from",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGConversationEvent.h",
+      "line": 19,
+      "symbol": "VGConversationEvent.timestamp",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGConversationEvent.h",
+      "line": 20,
+      "symbol": "VGConversationEvent.conversationId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGConversationsPage.h",
+      "line": 14,
+      "symbol": "VGConversationsPage",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGConversationsPage.h",
+      "line": 16,
+      "symbol": "VGConversationsPage.conversations",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGConversationsPage.h",
+      "line": 17,
+      "symbol": "VGConversationsPage.previousCursor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGConversationsPage.h",
+      "line": 18,
+      "symbol": "VGConversationsPage.nextCursor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGConversationsPage.h",
+      "line": 20,
+      "symbol": "VGConversationsPage.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGEventsPage.h",
+      "line": 12,
+      "symbol": "VGEventsPage",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGEventsPage.h",
+      "line": 14,
+      "symbol": "VGEventsPage.events",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGEventsPage.h",
+      "line": 15,
+      "symbol": "VGEventsPage.previousCursor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGEventsPage.h",
+      "line": 16,
+      "symbol": "VGEventsPage.nextCursor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGEventsPage.h",
+      "line": 17,
+      "symbol": "VGEventsPage.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberInvitedEvent.h",
+      "line": 12,
+      "symbol": "VGMemberInvitedEventBody",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberInvitedEvent.h",
+      "line": 13,
+      "symbol": "VGMemberInvitedEventBody.invitee",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberInvitedEvent.h",
+      "line": 14,
+      "symbol": "VGMemberInvitedEventBody.invitedBy",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberInvitedEvent.h",
+      "line": 15,
+      "symbol": "VGMemberInvitedEventBody.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberInvitedEvent.h",
+      "line": 18,
+      "symbol": "VGMemberInvitedEvent",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberInvitedEvent.h",
+      "line": 19,
+      "symbol": "VGMemberInvitedEvent.id",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberInvitedEvent.h",
+      "line": 20,
+      "symbol": "VGMemberInvitedEvent.timestamp",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberInvitedEvent.h",
+      "line": 21,
+      "symbol": "VGMemberInvitedEvent.conversationId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberInvitedEvent.h",
+      "line": 22,
+      "symbol": "VGMemberInvitedEvent.from",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberInvitedEvent.h",
+      "line": 23,
+      "symbol": "VGMemberInvitedEvent.body",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberInvitedEvent.h",
+      "line": 24,
+      "symbol": "VGMemberInvitedEvent.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberJoinedEvent.h",
+      "line": 13,
+      "symbol": "VGMemberJoinedEventBody",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberJoinedEvent.h",
+      "line": 14,
+      "symbol": "VGMemberJoinedEventBody.username",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberJoinedEvent.h",
+      "line": 15,
+      "symbol": "VGMemberJoinedEventBody.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberJoinedEvent.h",
+      "line": 18,
+      "symbol": "VGMemberJoinedEvent",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberJoinedEvent.h",
+      "line": 19,
+      "symbol": "VGMemberJoinedEvent.id",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberJoinedEvent.h",
+      "line": 20,
+      "symbol": "VGMemberJoinedEvent.timestamp",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberJoinedEvent.h",
+      "line": 21,
+      "symbol": "VGMemberJoinedEvent.conversationId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberJoinedEvent.h",
+      "line": 22,
+      "symbol": "VGMemberJoinedEvent.from",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberJoinedEvent.h",
+      "line": 23,
+      "symbol": "VGMemberJoinedEvent.body",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberJoinedEvent.h",
+      "line": 25,
+      "symbol": "VGMemberJoinedEvent.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberLeftEvent.h",
+      "line": 13,
+      "symbol": "VGMemberLeftEventBody",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberLeftEvent.h",
+      "line": 14,
+      "symbol": "VGMemberLeftEventBody.username",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberLeftEvent.h",
+      "line": 15,
+      "symbol": "VGMemberLeftEventBody.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberLeftEvent.h",
+      "line": 19,
+      "symbol": "VGMemberLeftEvent",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberLeftEvent.h",
+      "line": 20,
+      "symbol": "VGMemberLeftEvent.id",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberLeftEvent.h",
+      "line": 21,
+      "symbol": "VGMemberLeftEvent.timestamp",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberLeftEvent.h",
+      "line": 22,
+      "symbol": "VGMemberLeftEvent.conversationId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberLeftEvent.h",
+      "line": 23,
+      "symbol": "VGMemberLeftEvent.from",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberLeftEvent.h",
+      "line": 24,
+      "symbol": "VGMemberLeftEvent.body",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMemberLeftEvent.h",
+      "line": 25,
+      "symbol": "VGMemberLeftEvent.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMembersPage.h",
+      "line": 14,
+      "symbol": "VGMembersPage",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMembersPage.h",
+      "line": 16,
+      "symbol": "VGMembersPage.members",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMembersPage.h",
+      "line": 17,
+      "symbol": "VGMembersPage.previousCursor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMembersPage.h",
+      "line": 18,
+      "symbol": "VGMembersPage.nextCursor",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMembersPage.h",
+      "line": 20,
+      "symbol": "VGMembersPage.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMessageEvent.h",
+      "line": 15,
+      "symbol": "VGMessageEventBody",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMessageEvent.h",
+      "line": 17,
+      "symbol": "VGMessageEventBody.sender",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMessageEvent.h",
+      "line": 22,
+      "symbol": "VGMessageEvent",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMessageEvent.h",
+      "line": 24,
+      "symbol": "VGMessageEvent.id",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGMessageEvent.h",
+      "line": 25,
+      "symbol": "VGMessageEvent.body",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGTextMessageEvent.h",
+      "line": 14,
+      "symbol": "VGTextMessageEventBody",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGTextMessageEvent.h",
+      "line": 16,
+      "symbol": "VGTextMessageEventBody.sender",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGTextMessageEvent.h",
+      "line": 17,
+      "symbol": "VGTextMessageEventBody.text",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGTextMessageEvent.h",
+      "line": 19,
+      "symbol": "VGTextMessageEventBody.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGTextMessageEvent.h",
+      "line": 24,
+      "symbol": "VGTextMessageEvent",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGTextMessageEvent.h",
+      "line": 26,
+      "symbol": "VGTextMessageEvent.id",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGTextMessageEvent.h",
+      "line": 27,
+      "symbol": "VGTextMessageEvent.from",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGTextMessageEvent.h",
+      "line": 28,
+      "symbol": "VGTextMessageEvent.timestamp",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGTextMessageEvent.h",
+      "line": 29,
+      "symbol": "VGTextMessageEvent.conversationId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGTextMessageEvent.h",
+      "line": 30,
+      "symbol": "VGTextMessageEvent.body",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGTextMessageEvent.h",
+      "line": 32,
+      "symbol": "VGTextMessageEvent.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGUnknownEvent.h",
+      "line": 13,
+      "symbol": "VGUnknownEvent",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGUnknownEvent.h",
+      "line": 14,
+      "symbol": "VGUnknownEvent.type",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGUnknownEvent.h",
+      "line": 15,
+      "symbol": "VGUnknownEvent.id",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGUnknownEvent.h",
+      "line": 16,
+      "symbol": "VGUnknownEvent.timestamp",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGUnknownEvent.h",
+      "line": 17,
+      "symbol": "VGUnknownEvent.conversationId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGUnknownEvent.h",
+      "line": 18,
+      "symbol": "VGUnknownEvent.from",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VGUnknownEvent.h",
+      "line": 20,
+      "symbol": "VGUnknownEvent.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VonageClientSDKChat.h",
+      "line": 11,
+      "symbol": "VonageClientSDKChatVersionNumber",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKChat.framework/Headers/VonageClientSDKChat.h",
+      "line": 14,
+      "symbol": "VonageClientSDKChatVersionString",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/CSErrorCodes.h",
+      "line": 12,
+      "symbol": "CSErrorCodes",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/CSErrorCodes.h",
+      "line": 14,
+      "symbol": "CSErrorCodes.CONVERSATION_DUPLICATE_NAME",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/CSErrorCodes.h",
+      "line": 15,
+      "symbol": "CSErrorCodes.MEMBER_ALREADY_JOINED",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/CSErrorCodes.h",
+      "line": 17,
+      "symbol": "CSErrorCodes.MEMBER_ALREADY_INVITED",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/CSErrorCodes.h",
+      "line": 19,
+      "symbol": "CSErrorCodes.CONVERSATION_NOT_FOUND",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/CSErrorCodes.h",
+      "line": 21,
+      "symbol": "CSErrorCodes.MEMBER_NOT_FOUND",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/CSErrorCodes.h",
+      "line": 23,
+      "symbol": "CSErrorCodes.USER_NOT_FOUND",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/CSErrorCodes.h",
+      "line": 25,
+      "symbol": "CSErrorCodes.INVALID_CURSOR",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/CSErrorCodes.h",
+      "line": 27,
+      "symbol": "CSErrorCodes.VALIDATION_FAIL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/CSErrorCodes.h",
+      "line": 29,
+      "symbol": "CSErrorCodes.CONVERSATION_MAX_NUMBER_OF_MEMBERS",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/CSErrorCodes.h",
+      "line": 40,
+      "symbol": "CSErrorCodes.+new",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/CSErrorCodes.h",
+      "line": 41,
+      "symbol": "CSErrorCodes.-copy",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/CSErrorCodes.h",
+      "line": 42,
+      "symbol": "CSErrorCodes.-mutableCopy",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/CSErrorCodes.h",
+      "line": 43,
+      "symbol": "CSErrorCodes.+copy",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/CSErrorCodes.h",
+      "line": 44,
+      "symbol": "CSErrorCodes.+mutableCopy",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/CSErrorCodes.h",
+      "line": 45,
+      "symbol": "CSErrorCodes.+alloc",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/CSErrorCodes.h",
+      "line": 46,
+      "symbol": "CSErrorCodes.-dealloc",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 12,
+      "symbol": "SessionErrorCodes",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 14,
+      "symbol": "SessionErrorCodes.EMPTY_TOKEN",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 16,
+      "symbol": "SessionErrorCodes.FORCED_DISCONNECT",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 18,
+      "symbol": "SessionErrorCodes.TIMEOUT",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 20,
+      "symbol": "SessionErrorCodes.INTERNAL_FAILURE",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 22,
+      "symbol": "SessionErrorCodes.NO_ACTIVE_SESSION",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 24,
+      "symbol": "SessionErrorCodes.ALREADY_ACTIVE_SESSION",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 26,
+      "symbol": "SessionErrorCodes.INVALID_TOKEN",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 28,
+      "symbol": "SessionErrorCodes.EXPIRED_TOKEN",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 30,
+      "symbol": "SessionErrorCodes.INVALID_USER",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 32,
+      "symbol": "SessionErrorCodes.AUTHORIZATION_ERROR",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 34,
+      "symbol": "SessionErrorCodes.INVALID_SESSION",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 36,
+      "symbol": "SessionErrorCodes.MAX_OPEN_SESSIONS",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 38,
+      "symbol": "SessionErrorCodes.INVALID_SOCKET_TRANSPORT",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 40,
+      "symbol": "SessionErrorCodes.CLIENT_DISCONNECT",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 42,
+      "symbol": "SessionErrorCodes.PING_TIMEOUT_DISCONNECT",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 44,
+      "symbol": "SessionErrorCodes.TRANSPORT_CLOSED_DISCONNECT",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 50,
+      "symbol": "SessionErrorCodes.+new",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 51,
+      "symbol": "SessionErrorCodes.-copy",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 52,
+      "symbol": "SessionErrorCodes.-mutableCopy",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 53,
+      "symbol": "SessionErrorCodes.+copy",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 54,
+      "symbol": "SessionErrorCodes.+mutableCopy",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 55,
+      "symbol": "SessionErrorCodes.+alloc",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/SessionErrorCodes.h",
+      "line": 56,
+      "symbol": "SessionErrorCodes.-dealloc",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGBaseClient.h",
+      "line": 15,
+      "symbol": "VGPushType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGBaseClient.h",
+      "line": 15,
+      "symbol": "VGPushType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGBaseClient.h",
+      "line": 16,
+      "symbol": "VGPushType.VGPushTypeIncomingCall",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGBaseClient.h",
+      "line": 17,
+      "symbol": "VGPushType.VGPushTypeUnknown",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGBaseClient.h",
+      "line": 21,
+      "symbol": "VGBaseClientDelegate",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGBaseClient.h",
+      "line": 23,
+      "symbol": "VGBaseClientDelegate.-client:didReceiveSessionErrorWithReason:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGBaseClient.h",
+      "line": 26,
+      "symbol": "VGBaseClientDelegate.-clientWillReconnect:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGBaseClient.h",
+      "line": 27,
+      "symbol": "VGBaseClientDelegate.-clientDidReconnect:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGBaseClient.h",
+      "line": 30,
+      "symbol": "VGBaseClient",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGBaseClient.h",
+      "line": 32,
+      "symbol": "VGBaseClient.delegate",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGBaseClient.h",
+      "line": 34,
+      "symbol": "VGBaseClient.+setDefaultLoggingLevel:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGBaseClient.h",
+      "line": 36,
+      "symbol": "VGBaseClient.-setConfig:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGBaseClient.h",
+      "line": 140,
+      "symbol": "VGBaseClient.+vonagePushType:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGBaseClient.h",
+      "line": 154,
+      "symbol": "VGBaseClient.-registerDevicePushToken:userNotificationToken:callback:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 13,
+      "symbol": "VGChannelType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 13,
+      "symbol": "VGChannelType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 14,
+      "symbol": "VGChannelType.VGChannelTypeApp",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 15,
+      "symbol": "VGChannelType.VGChannelTypePhone",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 16,
+      "symbol": "VGChannelType.VGChannelTypePstn",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 17,
+      "symbol": "VGChannelType.VGChannelTypeSip",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 18,
+      "symbol": "VGChannelType.VGChannelTypeVbc",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 19,
+      "symbol": "VGChannelType.VGChannelTypeWebsocket",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 20,
+      "symbol": "VGChannelType.VGChannelTypeSms",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 21,
+      "symbol": "VGChannelType.VGChannelTypeMms",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 22,
+      "symbol": "VGChannelType.VGChannelTypeWhatsapp",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 23,
+      "symbol": "VGChannelType.VGChannelTypeViber",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 24,
+      "symbol": "VGChannelType.VGChannelTypeMessenger",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 25,
+      "symbol": "VGChannelType.VGChannelTypeUnknown",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 29,
+      "symbol": "VGChannel",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 31,
+      "symbol": "VGChannel.id",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 32,
+      "symbol": "VGChannel.number",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 34,
+      "symbol": "VGChannel.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 39,
+      "symbol": "VGUserChannels",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 41,
+      "symbol": "VGUserChannels.app",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 42,
+      "symbol": "VGUserChannels.phone",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 43,
+      "symbol": "VGUserChannels.pstn",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 44,
+      "symbol": "VGUserChannels.sip",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 45,
+      "symbol": "VGUserChannels.vbc",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 46,
+      "symbol": "VGUserChannels.websocket",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 47,
+      "symbol": "VGUserChannels.sms",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 48,
+      "symbol": "VGUserChannels.mms",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 49,
+      "symbol": "VGUserChannels.whatsapp",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 50,
+      "symbol": "VGUserChannels.viber",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 51,
+      "symbol": "VGUserChannels.messenger",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 53,
+      "symbol": "VGUserChannels.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 58,
+      "symbol": "VGMemberChannel",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 60,
+      "symbol": "VGMemberChannel.type",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 61,
+      "symbol": "VGMemberChannel.from",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 62,
+      "symbol": "VGMemberChannel.to",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGChannel.h",
+      "line": 64,
+      "symbol": "VGMemberChannel.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGClientConfig.h",
+      "line": 9,
+      "symbol": "VGConfigRegion.VGConfigRegionAP",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGClientConfig.h",
+      "line": 10,
+      "symbol": "VGConfigRegion.VGConfigRegionEU",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGClientConfig.h",
+      "line": 11,
+      "symbol": "VGConfigRegion.VGConfigRegionUS",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGClientConfig.h",
+      "line": 20,
+      "symbol": "VGLoggingLevel",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGClientConfig.h",
+      "line": 20,
+      "symbol": "VGLoggingLevel",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGClientConfig.h",
+      "line": 21,
+      "symbol": "VGLoggingLevel.VGLoggingLevelVerbose",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGClientConfig.h",
+      "line": 22,
+      "symbol": "VGLoggingLevel.VGLoggingLevelDebug",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGClientConfig.h",
+      "line": 23,
+      "symbol": "VGLoggingLevel.VGLoggingLevelInfo",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGClientConfig.h",
+      "line": 24,
+      "symbol": "VGLoggingLevel.VGLoggingLevelWarn",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGClientConfig.h",
+      "line": 25,
+      "symbol": "VGLoggingLevel.VGLoggingLevelError",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGClientConfig.h",
+      "line": 48,
+      "symbol": "VGClientConfig.enableWebsocketInvites",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGClientConfig.h",
+      "line": 72,
+      "symbol": "VGClientConfig.-initWithRegion:andEnableWebsocketInvites:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 12,
+      "symbol": "VGConversationId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 16,
+      "symbol": "VGConversationState",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 16,
+      "symbol": "VGConversationState",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 17,
+      "symbol": "VGConversationState.VGConversationStateActive",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 18,
+      "symbol": "VGConversationState.VGConversationStateInactive",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 19,
+      "symbol": "VGConversationState.VGConversationStateDeleted",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 20,
+      "symbol": "VGConversationState.VGConversationStateUnknown",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 24,
+      "symbol": "VGConversationTimestamp",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 26,
+      "symbol": "VGConversationTimestamp.created",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 27,
+      "symbol": "VGConversationTimestamp.updated",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 28,
+      "symbol": "VGConversationTimestamp.destroyed",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 30,
+      "symbol": "VGConversationTimestamp.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 36,
+      "symbol": "VGConversation",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 38,
+      "symbol": "VGConversation.id",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 39,
+      "symbol": "VGConversation.name",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 40,
+      "symbol": "VGConversation.timestamp",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 41,
+      "symbol": "VGConversation.memberId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 42,
+      "symbol": "VGConversation.memberState",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 43,
+      "symbol": "VGConversation.displayName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 44,
+      "symbol": "VGConversation.imageUrl",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 45,
+      "symbol": "VGConversation.state",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 46,
+      "symbol": "VGConversation.customData",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGConversation.h",
+      "line": 48,
+      "symbol": "VGConversation.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 4,
+      "symbol": "VGSessionErrorReason",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 4,
+      "symbol": "VGSessionErrorReason",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 5,
+      "symbol": "VGSessionErrorReason.VGSessionErrorReasonUnknown",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 6,
+      "symbol": "VGSessionErrorReason.VGSessionErrorReasonTokenExpired",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 7,
+      "symbol": "VGSessionErrorReason.VGSessionErrorReasonTransportClosed",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 8,
+      "symbol": "VGSessionErrorReason.VGSessionErrorReasonPingTimeout",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 11,
+      "symbol": "VGLegStatus",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 11,
+      "symbol": "VGLegStatus",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 12,
+      "symbol": "VGLegStatus.VGLegStatusUnknown",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 13,
+      "symbol": "VGLegStatus.VGLegStatusRinging",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 14,
+      "symbol": "VGLegStatus.VGLegStatusAnswered",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 15,
+      "symbol": "VGLegStatus.VGLegStatusCompleted",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 18,
+      "symbol": "VGHangupReason",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 18,
+      "symbol": "VGHangupReason",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 19,
+      "symbol": "VGHangupReason.VGHangupReasonUnknown",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 20,
+      "symbol": "VGHangupReason.VGHangupReasonRemoteReject",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 21,
+      "symbol": "VGHangupReason.VGHangupReasonRemoteHangup",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 22,
+      "symbol": "VGHangupReason.VGHangupReasonLocalHangup",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 23,
+      "symbol": "VGHangupReason.VGHangupReasonMediaTimeout",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 26,
+      "symbol": "VGVoiceInviteCancelReason",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 26,
+      "symbol": "VGVoiceInviteCancelReason",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 27,
+      "symbol": "VGVoiceInviteCancelReason.VGVoiceInviteCancelReasonUnknown",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 28,
+      "symbol": "VGVoiceInviteCancelReason.VGVoiceInviteCancelReasonAnsweredElsewhere",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 29,
+      "symbol": "VGVoiceInviteCancelReason.VGVoiceInviteCancelReasonRejectedElsewhere",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 30,
+      "symbol": "VGVoiceInviteCancelReason.VGVoiceInviteCancelReasonRemoteCancel",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 31,
+      "symbol": "VGVoiceInviteCancelReason.VGVoiceInviteCancelReasonRemoteTimeout",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 34,
+      "symbol": "VGVoiceChannelType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 34,
+      "symbol": "VGVoiceChannelType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 35,
+      "symbol": "VGVoiceChannelType.VGVoiceChannelTypeUnknown",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 36,
+      "symbol": "VGVoiceChannelType.VGVoiceChannelTypeApp",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 37,
+      "symbol": "VGVoiceChannelType.VGVoiceChannelTypePhone",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 38,
+      "symbol": "VGVoiceChannelType.VGVoiceChannelTypeSip",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGCoreEnum.h",
+      "line": 39,
+      "symbol": "VGVoiceChannelType.VGVoiceChannelTypeWebsocket",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGError.h",
+      "line": 13,
+      "symbol": "VGErrorType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGError.h",
+      "line": 13,
+      "symbol": "VGErrorType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGError.h",
+      "line": 14,
+      "symbol": "VGErrorType.VGErrorTypeCsError",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGError.h",
+      "line": 15,
+      "symbol": "VGErrorType.VGErrorTypeHttpClientError",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGError.h",
+      "line": 16,
+      "symbol": "VGErrorType.VGErrorTypeSessionError",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGError.h",
+      "line": 17,
+      "symbol": "VGErrorType.VGErrorTypeInternalError",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGError.h",
+      "line": 18,
+      "symbol": "VGErrorType.VGErrorTypeUnknownError",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGError.h",
+      "line": 22,
+      "symbol": "VGError",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGError.h",
+      "line": 24,
+      "symbol": "VGError.type",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGError.h",
+      "line": 25,
+      "symbol": "VGError.errorCode",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGError.h",
+      "line": 26,
+      "symbol": "VGError.message",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGError.h",
+      "line": 28,
+      "symbol": "VGError.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGMember.h",
+      "line": 13,
+      "symbol": "VGMemberId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGMember.h",
+      "line": 16,
+      "symbol": "VGMemberState",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGMember.h",
+      "line": 16,
+      "symbol": "VGMemberState",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGMember.h",
+      "line": 17,
+      "symbol": "VGMemberState.VGMemberStateInvited",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGMember.h",
+      "line": 18,
+      "symbol": "VGMemberState.VGMemberStateJoined",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGMember.h",
+      "line": 19,
+      "symbol": "VGMemberState.VGMemberStateLeft",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGMember.h",
+      "line": 20,
+      "symbol": "VGMemberState.VGMemberStateUnknown",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGMember.h",
+      "line": 24,
+      "symbol": "VGMemberTimestamp",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGMember.h",
+      "line": 26,
+      "symbol": "VGMemberTimestamp.invited",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGMember.h",
+      "line": 27,
+      "symbol": "VGMemberTimestamp.joined",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGMember.h",
+      "line": 28,
+      "symbol": "VGMemberTimestamp.left",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGMember.h",
+      "line": 30,
+      "symbol": "VGMemberTimestamp.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGMember.h",
+      "line": 36,
+      "symbol": "VGMember",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGMember.h",
+      "line": 38,
+      "symbol": "VGMember.id",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGMember.h",
+      "line": 39,
+      "symbol": "VGMember.state",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGMember.h",
+      "line": 40,
+      "symbol": "VGMember.user",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGMember.h",
+      "line": 41,
+      "symbol": "VGMember.channel",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGMember.h",
+      "line": 42,
+      "symbol": "VGMember.timestamp",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGMember.h",
+      "line": 44,
+      "symbol": "VGMember.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGUser.h",
+      "line": 13,
+      "symbol": "VGUsername",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGUser.h",
+      "line": 14,
+      "symbol": "VGUserId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGUser.h",
+      "line": 15,
+      "symbol": "VGUserIdOrName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGUser.h",
+      "line": 18,
+      "symbol": "VGUserTimestamp",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGUser.h",
+      "line": 20,
+      "symbol": "VGUserTimestamp.created",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGUser.h",
+      "line": 21,
+      "symbol": "VGUserTimestamp.updated",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGUser.h",
+      "line": 22,
+      "symbol": "VGUserTimestamp.destroyed",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGUser.h",
+      "line": 24,
+      "symbol": "VGUserTimestamp.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGUser.h",
+      "line": 29,
+      "symbol": "VGUser",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGUser.h",
+      "line": 31,
+      "symbol": "VGUser.id",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGUser.h",
+      "line": 32,
+      "symbol": "VGUser.name",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGUser.h",
+      "line": 33,
+      "symbol": "VGUser.displayName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGUser.h",
+      "line": 34,
+      "symbol": "VGUser.timestamp",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGUser.h",
+      "line": 35,
+      "symbol": "VGUser.channels",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGUser.h",
+      "line": 36,
+      "symbol": "VGUser.imageUrl",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGUser.h",
+      "line": 37,
+      "symbol": "VGUser.customData",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VGUser.h",
+      "line": 39,
+      "symbol": "VGUser.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VonageClientSDKCore.h",
+      "line": 11,
+      "symbol": "VonageClientSDKCoreVersionNumber",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKCore.framework/Headers/VonageClientSDKCore.h",
+      "line": 14,
+      "symbol": "VonageClientSDKCoreVersionString",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGRTCQuality.h",
+      "line": 14,
+      "symbol": "VGRTCQuality",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGRTCQuality.h",
+      "line": 15,
+      "symbol": "VGRTCQuality.mos_score",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGRTCQuality.h",
+      "line": 16,
+      "symbol": "VGRTCQuality.quality_percentage",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGRTCQuality.h",
+      "line": 17,
+      "symbol": "VGRTCQuality.jitter_min_var",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGRTCQuality.h",
+      "line": 18,
+      "symbol": "VGRTCQuality.jitter_max_var",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGRTCQuality.h",
+      "line": 19,
+      "symbol": "VGRTCQuality.jitter_loss_rate",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGRTCQuality.h",
+      "line": 20,
+      "symbol": "VGRTCQuality.jitter_burst_rate",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGRTCQuality.h",
+      "line": 21,
+      "symbol": "VGRTCQuality.flaw_total",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGRTCQuality.h",
+      "line": 22,
+      "symbol": "VGRTCQuality.packet_cnt",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGRTCQuality.h",
+      "line": 23,
+      "symbol": "VGRTCQuality.packet_loss_perc",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 22,
+      "symbol": "VGSessionId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 23,
+      "symbol": "VGCallId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 24,
+      "symbol": "VonageErrorCallback",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 25,
+      "symbol": "ServerCallCallback",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 26,
+      "symbol": "GetLegCallback",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 31,
+      "symbol": "VGVoiceClientAPI",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 34,
+      "symbol": "VGVoiceClientAPI.-serverCall:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 35,
+      "symbol": "VGVoiceClientAPI.-serverCall:callback:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 38,
+      "symbol": "VGVoiceClientAPI.-answer:callback:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 39,
+      "symbol": "VGVoiceClientAPI.-reject:callback:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 42,
+      "symbol": "VGVoiceClientAPI.-processCallInvitePushData:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 45,
+      "symbol": "VGVoiceClientAPI.-getLeg:callback:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 48,
+      "symbol": "VGVoiceClientAPI.-reconnect:callback:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 49,
+      "symbol": "VGVoiceClientAPI.-hangup:callback:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 50,
+      "symbol": "VGVoiceClientAPI.-hangup:reason:code:callback:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 51,
+      "symbol": "VGVoiceClientAPI.-say:text:callback:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 52,
+      "symbol": "VGVoiceClientAPI.-say:text:level:loop:queue:voiceName:ssml:callback:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 53,
+      "symbol": "VGVoiceClientAPI.-mute:callback:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 54,
+      "symbol": "VGVoiceClientAPI.-unmute:callback:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 55,
+      "symbol": "VGVoiceClientAPI.-enableEarmuff:callback:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 56,
+      "symbol": "VGVoiceClientAPI.-disableEarmuff:callback:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 57,
+      "symbol": "VGVoiceClientAPI.-sendDTMF:withDigits:callback:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 60,
+      "symbol": "VGVoiceClientAPI.isUsingCallKit",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 69,
+      "symbol": "VGVoiceClientDelegate",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 71,
+      "symbol": "VGVoiceClientDelegate.-voiceClient:didReceiveInviteForCall:from:withChannelType:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 72,
+      "symbol": "VGVoiceClientDelegate.-voiceClient:didReceiveHangupForCall:withQuality:andReason:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 73,
+      "symbol": "VGVoiceClientDelegate.-voiceClient:didReceiveInviteCancelForCall:withReason:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 76,
+      "symbol": "VGVoiceClientDelegate.-voiceClient:didReceiveCallTransferForCall:withConversationId:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 77,
+      "symbol": "VGVoiceClientDelegate.-voiceClient:didReceiveMuteForCall:withLegId:andStatus:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 78,
+      "symbol": "VGVoiceClientDelegate.-voiceClient:didReceiveEarmuffForCall:withLegId:andStatus:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 79,
+      "symbol": "VGVoiceClientDelegate.-voiceClient:didReceiveDTMFForCall:withLegId:andDigits:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 80,
+      "symbol": "VGVoiceClientDelegate.-voiceClient:didReceiveLegStatusUpdateForCall:withLegId:andStatus:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 87,
+      "symbol": "VGVoiceClient",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 88,
+      "symbol": "VGVoiceClient.delegate",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceClient.h",
+      "line": 90,
+      "symbol": "VGVoiceClient.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceLeg.h",
+      "line": 13,
+      "symbol": "VGVoiceLeg",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceLeg.h",
+      "line": 14,
+      "symbol": "VGVoiceLeg.legId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceLeg.h",
+      "line": 15,
+      "symbol": "VGVoiceLeg.conversationId",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceLeg.h",
+      "line": 16,
+      "symbol": "VGVoiceLeg.direction",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceLeg.h",
+      "line": 17,
+      "symbol": "VGVoiceLeg.status",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceLeg.h",
+      "line": 18,
+      "symbol": "VGVoiceLeg.startTime",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceLeg.h",
+      "line": 19,
+      "symbol": "VGVoiceLeg.endTime",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceLeg.h",
+      "line": 20,
+      "symbol": "VGVoiceLeg.type",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceLeg.h",
+      "line": 21,
+      "symbol": "VGVoiceLeg.from",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceLeg.h",
+      "line": 22,
+      "symbol": "VGVoiceLeg.to",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceLegChannnel.h",
+      "line": 13,
+      "symbol": "VGVoiceLegChannel",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceLegChannnel.h",
+      "line": 14,
+      "symbol": "VGVoiceLegChannel.type",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceLegChannnel.h",
+      "line": 15,
+      "symbol": "VGVoiceLegChannel.user",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VGVoiceLegChannnel.h",
+      "line": 16,
+      "symbol": "VGVoiceLegChannel.number",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VonageClientSDKVoice.h",
+      "line": 4,
+      "symbol": "VonageClientSDKVoiceClientVersionNumber",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios/DerivedData/Build/Products/Debug-iphonesimulator/VonageClientSDKVoice.framework/Headers/VonageClientSDKVoice.h",
+      "line": 7,
+      "symbol": "VonageClientSDKVoiceClientVersionString",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "VonageClientSDK/VonageClientSDK.h",
+      "line": 11,
+      "symbol": "VonageClientSDKVersionNumber",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    },
+    {
+      "file": "VonageClientSDK/VonageClientSDK.h",
+      "line": 14,
+      "symbol": "VonageClientSDKVersionString",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.constant",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/salvatoredicara/Workspace/nexmoclient-sdk-core-kmp/vonagesdk_ios"
+}
